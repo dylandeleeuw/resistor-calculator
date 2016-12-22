@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>resistor calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="resistor.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div id="container">
+	<div id="input1">
+		<p>kleur van eerste streep</p>
+		<button id="black" onclick="input1(0)"></button>
+		<button id="brown" onclick="input1(1)"></button>
+		<button id="red" onclick="input1(2)"></button>
+		<button id="orange" onclick="input1(3)"></button>
+		<button id="yellow" onclick="input1(4)"></button>
+		<button id="green" onclick="input1(5)"></button>
+		<button id="blue" onclick="input1(6)"></button>
+		<button id="purple" onclick="input1(7)"></button>
+		<button id="grey" onclick="input1(8)"></button>
+		<button id="white" onclick="input1(9)"></button>
+	</div><br>
+	<div id="input2">
+		<p>kleur van tweede streep</p>
+		<button id="black" onclick="input2(0)"></button>
+		<button id="brown" onclick="input2(1)"></button>
+		<button id="red" onclick="input2(2)"></button>
+		<button id="orange" onclick="input2(3)"></button>
+		<button id="yellow" onclick="input2(4)"></button>
+		<button id="green" onclick="input2(5)"></button>
+		<button id="blue" onclick="input2(6)"></button>
+		<button id="purple" onclick="input2(7)"></button>
+		<button id="grey" onclick="input2(8)"></button>
+		<button id="white" onclick="input2(9)"></button>
+	</div><br>
+	<div id="input3">
+		<p>kleur van derde streep</p>
+		<button id="black" onclick="input3(1)"></button>
+		<button id="brown" onclick="input3(10)"></button>
+		<button id="red" onclick="input3(100)"></button>
+		<button id="orange" onclick="input3(1000)"></button>
+		<button id="yellow" onclick="input3(10000)"></button>
+		<button id="green" onclick="input3(100000)"></button>
+		<button id="blue" onclick="input3(1000000)"></button>
+		<button id="gold" onclick="input3(0.1)"></button>
+		<button id="silver" onclick="input3(0.01)"></button>
+	</div><br>
+	<p>de weerstand in ohm</p>
+	<div id="output">
+		<script>
+			document.write(output);
+		</script>
+	</div>
+</div>
+</body>
+</html>

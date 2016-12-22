@@ -1,0 +1,39 @@
+button {
+    border: solid black 1px;
+    padding: 15px 15px;
+}
+#black{
+	background-color: black;
+}
+#brown{
+	background-color: brown;
+}
+#red{
+	background-color: red;
+}
+#orange{
+	background-color: orange;
+}
+#yellow{
+	background-color: yellow;
+}
+#green{
+	background-color: green;
+}
+#blue{
+	background-color: blue;
+}
+#purple{
+	background-color: purple;
+}
+#grey{
+	background-color: grey;
+}
+#white{
+	background-color: white;
+}
+#gold{
+	background-color: gold;
+}#silver{
+	background-color: silver;
+}
