@@ -1,6 +1,45 @@
+body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.resistor{
+	background-color: #fffdce;
+	height: 100px;
+	width: 250px;
+	border: solid black 1px;
+}
+.resistor button{
+	height: 100px;
+	margin-left: 30px;
+}
 button {
     border: solid black 1px;
     padding: 15px 15px;
+}
+#input1{
+	margin-left: 31px;
+	height: 0px;
+	width: 32px;
+	transition: 0.5s;
+	overflow: hidden;
+	position: absolute;
+}
+#input2{
+	margin-left: 97px;
+	height: 0px;
+	width: 32px;
+	transition: 0.5s;
+	overflow: hidden;
+	position: absolute;
+}
+#input3{
+	margin-left: 163px;
+	height: 0px;	
+	width: 32px;
+	transition: 0.5s;
+	overflow: hidden;
+	position: absolute;
 }
 #black{
 	background-color: black;

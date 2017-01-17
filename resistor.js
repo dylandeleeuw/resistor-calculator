@@ -3,20 +3,23 @@ var number2 = null;
 var number3 = null;
 var output = "Nog niet alle kleuren zijn gekozen.";
 
-function input1(number){
+function input1(number, color){
     number1 = number;
-    console.log(number1, number2, number3);
+    document.getElementById('button1').style.backgroundColor = color;
     check();
+    closeNav(1);
 }
-function input2(number){
+function input2(number, color){
     number2 = number;
-    console.log(number1, number2, number3);
+    document.getElementById('button2').style.backgroundColor = color;
     check();
+    closeNav(2);
 }
-function input3(number){
+function input3(number, color){
     number3 = number;
-    console.log(number1, number2, number3);
+    document.getElementById('button3').style.backgroundColor = color;
     check();
+    closeNav(3);
 }
 
 var check = function(){
@@ -24,4 +27,12 @@ var check = function(){
 		var output = (number1 + '' + number2) * number3;
 	    document.getElementById("output").innerHTML = output;
 	}
+}
+
+function openNav(number) {
+    document.getElementById("input" + + number).style.height = "320px";
+}
+
+function closeNav(number) {
+    document.getElementById("input" + + number).style.height = "0";
 }
